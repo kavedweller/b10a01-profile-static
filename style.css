@@ -63,9 +63,6 @@ body {
     text-align: end;
 }
 
-.text-red-1 {
-    color: #ff0000;
-}
 
 .text-white {
     color: whitesmoke;
@@ -125,4 +122,80 @@ body {
     width: 15rem;
     object-fit: cover;
     padding-bottom: 2rem;
+}
+
+.section-margin {
+    margin-top: 4.5rem;
+}
+
+.background-dull {
+    background-color: #fafafb;
+    color: #0D1321;
+}
+
+.gradient-white {
+    background-color: white;
+    background-image: linear-gradient(to right, white , #fafafb);
+}
+.gradient-white-reverse {
+    background-color: white;
+    background-image: linear-gradient(to left, white , #fafafb);
+}
+
+.container {
+    margin: 6rem;
+    display: flex;
+    flex-direction: column;
+    /* background-color: white; */
+}
+
+.article-padding {
+    padding-inline: 3rem;
+}
+
+.article-h1 {
+    font-size: 2rem;
+    font-weight: 700;
+    color: #0d3121;
+}
+.article-h2 {
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #0D3121;
+    opacity: 0.7;
+}
+
+.article-text {
+    font-size: 1rem;
+    color: #0D3121;
+}
+
+.width-60 {
+    width: 60%;
+}
+
+.rounded-2 {
+    border-radius: 1.5rem;
+}
+
+.bottom-margin-2 {
+    margin-bottom: 2rem
+}
+
+.button-article {
+    padding-inline: 1.25rem;
+    padding-block: 0.75rem;
+    font-size: 1.25rem;
+    font-family: 'Azeret Mono', sans-serif;
+    font-weight: 600;
+    background-color: transparent;
+    border: 0.125rem solid #0d3121;
+    opacity: 0.7;
+}
+
+margin-start-2 {
+    margin-inline-start: 2rem;
+}
+margin-end-2 {
+    margin-inline-end: 2rem;
 }
