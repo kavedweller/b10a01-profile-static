@@ -154,11 +154,13 @@ body {
 }
 
 .article-h1 {
+    font-family: 'Azeret Mono', sans-serif;
     font-size: 2rem;
     font-weight: 700;
     color: #0d3121;
 }
 .article-h2 {
+    font-family: 'Azeret Mono', sans-serif;
     font-size: 1.5rem;
     font-weight: 600;
     color: #0D3121;
@@ -166,6 +168,7 @@ body {
 }
 
 .article-text {
+    font-family: 'Azeret Mono', sans-serif;
     font-size: 1rem;
     color: #0D3121;
 }
