@@ -1,0 +1,128 @@
+body {
+    margin: 0 auto;
+}
+
+.fixed-width {
+    max-width: 1140px;
+    margin: auto;
+}
+
+.display-flex {
+    display: flex;
+}
+
+.flelx-basis-auto {
+    flex-basis: auto;
+}
+
+.justify-center {
+    justify-content: center;
+}
+
+.justify-between {
+    justify-content: space-between;
+}
+
+.align-middle {
+    align-items: center;
+}
+
+.image-container {
+    position: relative;
+    /* text-align: start; */
+    /* color: white; */
+    height: 40.75rem;
+    width: 90rem;
+}
+
+.image-filter {
+    filter: brightness(80%);
+}
+
+.darkened {
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.8);
+}
+
+/* Centered text overlay*/
+.centered-textover {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.text-center {
+    text-align: center;
+}
+
+.text-start {
+    text-align: start;
+}
+
+.text-end {
+    text-align: end;
+}
+
+.text-red-1 {
+    color: #ff0000;
+}
+
+.text-white {
+    color: whitesmoke;
+}
+
+.nav-h1 {
+    font-size: 1.75rem;
+
+}
+
+.header-h1 {
+    font-size: 3rem;
+    line-height: 4.28rem;
+    font-weight: 600;
+    margin-bottom: 1.5rem;
+}
+.header-h3 {
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5rem;
+    margin-bottom: 2rem;
+}
+
+.header-whiteboard {
+    width: 62.375rem;
+    /* height: 36.313rem; */
+    background-color: white;
+    border: 0.125rem solid black;
+}
+
+.text-mono {
+    font-family: 'Azeret Mono';
+}
+
+.button-black {
+    background-color: black;
+    padding-block: 1.25rem;
+    padding-inline: 1.5rem;
+    color: white;
+    font-weight: 500;
+    font-size: 1.25rem;
+    border-radius: 0.5rem;
+}
+
+.button-trasperent {
+    background-color: transparent;
+    padding-block: 1rem;
+    padding-inline: 1.5rem;
+    font-weight: 500;
+    font-size: 1.25rem;
+    border: 0.125rem solid black;
+    border-radius: 0.5rem;
+}
+
+.header-logo {
+    height: 15rem;
+    width: 15rem;
+    object-fit: cover;
+    padding-bottom: 2rem;
+}
