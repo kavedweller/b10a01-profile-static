@@ -11,7 +11,7 @@ body {
     display: flex;
 }
 
-.flelx-basis-auto {
+.flex-basis-auto {
     flex-basis: auto;
 }
 
@@ -31,12 +31,16 @@ body {
     position: relative;
     /* text-align: start; */
     /* color: white; */
+
+}
+
+.header-image {
     height: 40.75rem;
     width: 90rem;
 }
 
-.image-filter {
-    filter: brightness(80%);
+.darker-filter {
+    filter: brightness(70%);
 }
 
 .darkened {
@@ -63,7 +67,6 @@ body {
     text-align: end;
 }
 
-
 .text-white {
     color: whitesmoke;
 }
@@ -79,6 +82,7 @@ body {
     font-weight: 600;
     margin-bottom: 1.5rem;
 }
+
 .header-h3 {
     font-size: 1rem;
     font-weight: 400;
@@ -105,6 +109,7 @@ body {
     font-weight: 500;
     font-size: 1.25rem;
     border-radius: 0.5rem;
+    cursor:pointer;
 }
 
 .button-trasperent {
@@ -115,6 +120,7 @@ body {
     font-size: 1.25rem;
     border: 0.125rem solid black;
     border-radius: 0.5rem;
+    cursor:pointer;
 }
 
 .header-logo {
@@ -135,11 +141,12 @@ body {
 
 .gradient-white {
     background-color: white;
-    background-image: linear-gradient(to right, white , #fafafb);
+    background-image: linear-gradient(to right, white, #fafafb);
 }
+
 .gradient-white-reverse {
     background-color: white;
-    background-image: linear-gradient(to left, white , #fafafb);
+    background-image: linear-gradient(to left, white, #fafafb);
 }
 
 .container {
@@ -148,6 +155,7 @@ body {
     flex-direction: column;
     /* background-color: white; */
 }
+
 
 .article-padding {
     padding-inline: 3rem;
@@ -159,6 +167,7 @@ body {
     font-weight: 700;
     color: #0d3121;
 }
+
 .article-h2 {
     font-family: 'Azeret Mono', sans-serif;
     font-size: 1.5rem;
@@ -196,6 +205,7 @@ body {
 .border-1 {
     border: 1px solid #0D1321;
 }
+
 .rounded-1 {
     border-radius: 1rem;
 }
@@ -207,9 +217,13 @@ body {
 .margin-bottom-1 {
     margin-bottom: 1.5rem;
 }
-    
+
 .margin-bottom-2 {
     margin-bottom: 2rem
+}
+
+.padding-bottom-1 {
+    padding-bottom: 1.5rem;
 }
 
 .button-article {
@@ -221,11 +235,13 @@ body {
     background-color: transparent;
     border: 0.125rem solid #0d3121;
     opacity: 0.7;
+    cursor:pointer;
 }
 
 .margin-start-2 {
     margin-inline-start: 2rem;
 }
+
 .margin-end-2 {
     margin-inline-end: 2rem;
 }
@@ -235,4 +251,60 @@ a {
     font-weight: 700;
     font-size: 1rem;
     color: #0D3121;
+}
+
+.object-fit-cover {
+    object-fit: cover;
+}
+
+.support-image {
+    width: 71.25rem;
+    height: 19.5rem;
+}
+
+.support-h2 {
+    font-family: 'Azeret Mono', sans-serif;
+    font-weight: 700;
+    font-size: 2rem;
+    color: white;
+}
+
+.support-text {
+    font-family: 'Azeret Mono', sans-serif;
+    font-weight: 400;
+    font-size: 1rem;
+    color: white;
+}
+
+.support-textbox {
+    font-family: 'Azeret Mono', sans-serif;
+    font-weight: 400;
+    font-size: 1rem;
+    background-color: white;
+    color: rgb(115, 107, 107);
+    width: 33rem;
+    height: 3.25rem;
+    display: inline-block;
+    padding: 0.25rem 1.5rem;
+    font-size: 20px;
+    border-radius: 0.5rem;
+    /* -webkit-appearance: none; */
+    border: 1px solid transparent;
+    padding-inline: 1rem;
+}
+
+.button-support {
+    font-family: 'Azeret Mono', sans-serif;
+    font-weight: 400;
+    font-size: 1rem;
+    color: #0d3121;
+    background-color: white;
+    display: inline-block;
+    padding: 0.25rem 1.5rem;
+    font-size: 20px;
+    border-radius: 0.5rem;
+    /* -webkit-appearance: none; */
+    border: 1px solid transparent;
+    margin-inline-start: 1.5rem;
+    cursor:pointer;
 }
