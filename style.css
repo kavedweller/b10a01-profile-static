@@ -33,9 +33,6 @@ body {
 
 .image-container {
     position: relative;
-    /* text-align: start; */
-    /* color: white; */
-
 }
 
 .header-image {
@@ -97,8 +94,8 @@ body {
 .header-whiteboard {
     width: 62.375rem;
     /* height: 36.313rem; */
-    background-color: white;
-    border: 0.125rem solid black;
+    background-color: transparent;
+    border: 0.125rem solid transparent;
 }
 
 .text-mono {
@@ -159,7 +156,6 @@ body {
     flex-direction: column;
     /* background-color: white; */
 }
-
 
 .article-padding {
     padding-inline: 3rem;
@@ -322,6 +318,10 @@ footer {
     gap: 1rem;
 }
 
+.gap-2 {
+    gap: 2rem;
+}
+
 .footer-container {
     display: flex;
     flex-grow: 100;
@@ -333,4 +333,52 @@ footer p {
     font-family: 'Azeret Mono', sans-serif;
     font-weight: 400;
     color: grey;
+}
+
+.flex-column {
+    flex-direction: column;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    height: 300px;
+    width: 364px;
+    border: 1px solid transparent;
+    padding: 40px;
+    border-radius: 0.5rem;
+}
+
+.card-img {
+    height: 56px;
+    width: 56px;
+    object-fit: cover;
+}
+
+.card-h1 {
+    font-family: 'Azeret Mono', sans-serif;
+    font-size: 1.5rem;
+    font-weight: 900;
+    color: #0d3121;
+
+}
+
+.card-text {
+    font-family: 'Azeret Mono', sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    color: #0d3121;
+}
+
+
+.background-fef6f4 {
+    background-color: #fef6f4;
+}
+
+.background-f2f6fe {
+    background-color: #f2f6fe;
+}
+
+.background-fffdf2 {
+    background-color: #fffdf2;
 }
