@@ -173,15 +173,42 @@ body {
     color: #0D3121;
 }
 
-.width-60 {
-    width: 60%;
+.width-7 {
+    width: 58.33%;
+}
+
+.width-8 {
+    width: 66.67%;
+}
+
+.width-9 {
+    width: 75%;
+}
+
+.width-10 {
+    width: 83.33%;
+}
+
+.width-11 {
+    width: 91.67%;
+}
+
+.border-1 {
+    border: 1px solid #0D1321;
+}
+.rounded-1 {
+    border-radius: 1rem;
 }
 
 .rounded-2 {
     border-radius: 1.5rem;
 }
 
-.bottom-margin-2 {
+.margin-bottom-1 {
+    margin-bottom: 1.5rem;
+}
+    
+.margin-bottom-2 {
     margin-bottom: 2rem
 }
 
@@ -196,9 +223,16 @@ body {
     opacity: 0.7;
 }
 
-margin-start-2 {
+.margin-start-2 {
     margin-inline-start: 2rem;
 }
-margin-end-2 {
+.margin-end-2 {
     margin-inline-end: 2rem;
+}
+
+a {
+    font-family: 'Azeret Mono', sans-serif;
+    font-weight: 700;
+    font-size: 1rem;
+    color: #0D3121;
 }
